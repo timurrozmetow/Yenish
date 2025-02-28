@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from 'date-fns'
 
 const targetDates = [
-  { date: new Date('2025-06-15T00:00:00'), label: 'До Армии осталось:' },
-  { date: new Date('2027-05-01T00:00:00'), label: 'До Свободы осталось:' }
+  { date: new Date('2025-05-24T00:00:00'), label: 'До Армии осталось:' },
+  { date: new Date('2027-06-10T00:00:00'), label: 'До Свободы осталось:' }
 ]
 
 const calculateTimeLeft = (target) => {
